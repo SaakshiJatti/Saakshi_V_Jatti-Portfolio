@@ -8,5 +8,5 @@ package-lock.json
 vite.config.*s.*
 .env.local
 public/
-src/
+
 .env

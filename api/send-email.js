@@ -1,24 +1,23 @@
-const nodemailer = require('nodemailer');
+import nodemailer from 'nodemailer';
 
-export default function handler(req, res) {
-  // 1. Create a "transporter"
-  // This is the service that will send the email (e.g., Gmail)
+export default async function handler(req, res) {
+  // Get the form data from the request body
+  const { name, email, company, message } = req.body;
+
+  // Create a transporter—the service that sends the email
   const transporter = nodemailer.createTransport({
-    service: 'gmail', // Use your email provider
+    service: 'gmail',
     auth: {
       user: process.env.EMAIL_USER,
       pass: process.env.EMAIL_PASS,
     },
   });
 
-  // 2. Get the form data from the request
-  const { name, email, company, message } = req.body;
-
-  // 3. Set up the email content
+  // Set up the email content
   const mailOptions = {
-    from: process.env.EMAIL_USER, // Sender address
-    to: process.env.EMAIL_USER,   // List of receivers (yourself)
-    subject: `New Message from ${name} on your Portfolio`, // Subject line
+    from: process.env.EMAIL_USER,
+    to: process.env.EMAIL_USER, // Sending the email to yourself
+    subject: `New Message from ${name} on your Portfolio`,
     text: `
       Name: ${name}
       Email: ${email}
@@ -29,12 +28,12 @@ export default function handler(req, res) {
     `,
   };
 
-  // 4. Send the email
-  transporter.sendMail(mailOptions, (error, info) => {
-    if (error) {
-      console.error(error);
-      return res.status(500).json({ error: 'Failed to send email' });
-    }
+  // Try to send the email
+  try {
+    await transporter.sendMail(mailOptions);
     return res.status(200).json({ message: 'Email sent successfully' });
-  });
+  } catch (error) {
+    console.error(error);
+    return res.status(500).json({ error: 'Failed to send email' });
+  }
 }

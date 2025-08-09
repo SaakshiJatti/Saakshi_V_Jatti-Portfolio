@@ -8,3 +8,5 @@ package-lock.json
 vite.config.*s.*
 .env.local
 .env
+/public/Saakshi_img.png
+/public/Saakshi_V_Jatti_RESUME_.pdf

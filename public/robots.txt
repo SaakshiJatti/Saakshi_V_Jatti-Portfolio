@@ -1,7 +1,3 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Allow: /
-
-Sitemap: https://saakshi-v-jatti-portfolio.vercel.app/sitemap.xml
-
 Disallow:

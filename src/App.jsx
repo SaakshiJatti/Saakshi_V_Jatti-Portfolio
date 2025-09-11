@@ -3,7 +3,10 @@ import Routes from "./Routes";
 
 function App() {
   return (
-    <Routes />
+    <div>
+      <h1>Test Render</h1>
+      <Routes />
+    </div>
   );
 }
 

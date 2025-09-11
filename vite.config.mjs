@@ -20,9 +20,9 @@ export default defineConfig({
       "three/examples/js/libs/stats.min": path.resolve(__dirname, "empty-module.js"),
     },
   },
-  plugins: [tsconfigPaths(), react({ jsxRuntime: 'classic' }), tagger()],
+  plugins: [tsconfigPaths(), react(), tagger()],
   server: {
-    port: "4028",
+    port: 4028,
     host: "0.0.0.0",
     strictPort: true,
   },

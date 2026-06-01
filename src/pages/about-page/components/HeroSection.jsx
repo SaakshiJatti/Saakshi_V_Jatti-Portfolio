@@ -28,6 +28,7 @@ const HeroSection = () => {
 
       <div className="relative z-10 max-w-4xl mx-auto px-6 lg:px-8 text-center">
         {/* Profile Image */}
+        <br />
         <div className="relative mb-8 inline-block">
           <div className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full overflow-hidden border-4 border-cyan-400/50 shadow-glow-cyber-cyan bg-purple-950">
             <Image
@@ -41,7 +42,7 @@ const HeroSection = () => {
           </div>
           
           {/* Cyberpunk Status Ring */}
-          <div className="absolute -inset-2 rounded-full border-2 border-dashed border-cyan-400/30 animate-spin-slow mt-[16px]"></div>
+          <div className="absolute -inset-2 rounded-full border-2 border-dashed border-cyan-400/30 animate-spin-slow"></div>
         </div>
 
         {/* Hero Content */}
@@ -52,11 +53,11 @@ const HeroSection = () => {
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-cyan-400 font-body font-medium">
-            Computer Science and Design Student → Future Developer
+            Computer Science and Design Student → Developer
           </p>
           <p className="text-lg text-text-secondary max-w-2xl mx-auto font-body leading-relaxed">
-            Passionate about creative coding and eager to learn. Currently exploring web development, game development, AI,
-             and UI/UX while building my projects and discovering my path in tech.
+            Passionate about creative coding and eager to learn. Currently exploring python development, data analysis, game development, AI
+             and ML while building my projects and discovering my path in tech.
           </p>
         </div>
 

@@ -13,19 +13,19 @@ const PersonalNarrative = () => {
         <div className="space-y-6 text-text-secondary font-body leading-relaxed">
           <p className="text-lg">
             Hi, I’m Saakshi — a final-year Computer Science and Design student 
-            with a solid foundation in web development and a growing interest 
+            with a solid foundation in python dev and a growing interest 
             in game development, data science, business analysis, and AI.
           </p>
           
           <p>
-            My journey started with C and Java, where I first discovered 
+            My journey started with Python, and Java, where I first discovered 
             the thrill of building something from scratch. Since then, 
             I’ve developed several frontend projects using HTML, CSS, JavaScript, 
             and React — always focusing on clean design, functionality, and collaboration.
           </p>
           
           <p>
-            As I explored deeper, I found myself drawn to the logic behind gameplay, 
+            As I explored deeper, I found myself drawn to the logic behind algorithms, 
             the patterns hidden in data, and the potential of emerging tech to 
             shape smarter, more human-centered solutions.
           </p>

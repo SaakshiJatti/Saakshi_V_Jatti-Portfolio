@@ -61,7 +61,7 @@ const Header = () => {
                   My Portfolio
                 </h1>
                 <p className="text-xs font-caption text-text-secondary -mt-1">
-                  Designer. Developer. Problem Solver.
+                  Developer. Designer. Problem Solver.
                 </p>
               </div>
             </Link>

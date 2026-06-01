@@ -29,7 +29,7 @@ const HeroSection = () => {
       <div className="relative z-10 max-w-4xl mx-auto px-6 lg:px-8 text-center">
         {/* Profile Image */}
         <div className="relative mb-8 inline-block">
-          <div className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full overflow-hidden border-4 border-cyan-400/50 shadow-glow-cyber-cyan">
+          <div className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full overflow-hidden border-4 border-cyan-400/50 shadow-glow-cyber-cyan bg-purple-950">
             <Image
               src="/Saakshi_img.png"
               alt="Saakshi V. Jatti - Computer Science and Design Student"
@@ -41,7 +41,7 @@ const HeroSection = () => {
           </div>
           
           {/* Cyberpunk Status Ring */}
-          <div className="absolute -inset-2 rounded-full border-2 border-dashed border-cyan-400/30 animate-spin-slow mt-[00px]"></div>
+          <div className="absolute -inset-2 rounded-full border-2 border-dashed border-cyan-400/30 animate-spin-slow mt-[16px]"></div>
         </div>
 
         {/* Hero Content */}

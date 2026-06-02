@@ -45,7 +45,7 @@ const AboutPage = () => {
 
         {/* Content Grid */}
         <div className="grid gap-16 lg:gap-24">
-          {/* Personal Story Section */}
+          {/* Personal Story Section
           <section className="scroll-reveal">
             <div className="grid gap-12 lg:grid-cols-3 lg:gap-16">
               <div className="lg:col-span-2">
@@ -57,10 +57,10 @@ const AboutPage = () => {
             </div>
           </section>
 
-          {/* Skills Section */}
+          Skills Section
           <section className="scroll-reveal">
             <SkillsMatrix />
-          </section>
+          </section> */}
 
           {/* Achievements Section */}
           <section className="scroll-reveal">

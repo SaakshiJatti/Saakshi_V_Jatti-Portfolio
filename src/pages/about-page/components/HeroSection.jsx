@@ -56,8 +56,7 @@ const HeroSection = () => {
             Computer Science and Design Student → Developer
           </p>
           <p className="text-lg text-text-secondary max-w-2xl mx-auto font-body leading-relaxed">
-            Passionate about creative coding and eager to learn. Currently exploring python development, data analysis, game development, AI
-             and ML while building my projects and discovering my path in tech.
+            Passionate about creative coding and eager to learn.
           </p>
         </div>
 

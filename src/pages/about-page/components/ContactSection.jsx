@@ -53,10 +53,10 @@ const ContactSection = () => {
           <Icon name="Wifi" size={28} className="text-cyan-400" />
           Let's Connect
         </h2>
-        <p className="text-lg text-text-secondary font-body max-w-2xl mx-auto">
+        {/* <p className="text-lg text-text-secondary font-body max-w-2xl mx-auto">
           I'm always excited to meet fellow developers, learn from experienced professionals, 
           and work on interesting projects. Let's build something awesome together!
-        </p>
+        </p> */}
       </div>
       
       {/* Availability Status - Student Version */}
@@ -119,7 +119,7 @@ const ContactSection = () => {
       
       {/* Call to Action - Student Version */}
       <div className="text-center space-y-6 pt-8 border-t border-cyan-400/30">
-        <div className="space-y-3">
+        {/* <hdiv className="space-y-3">
           <h3 className="text-2xl font-heading font-bold text-foreground">
             Ready to Learn & Connect?
           </h3>
@@ -127,7 +127,7 @@ const ContactSection = () => {
             Whether you have an internship opportunity 
             or just want to share knowledge, I'd love to connect!
           </p>
-        </div>
+        </div> */}
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link to="/contact-page">
@@ -153,7 +153,7 @@ const ContactSection = () => {
           </Link>
         </div>
         
-        {/* Learning Status */}
+        {/* Learning Status 
         <div className="mt-8 glass-cyber p-4 rounded-xl border border-purple-400/30">
           <div className="flex items-center justify-center gap-2 text-purple-400">
             <Icon name="Brain" size={16} />
@@ -161,7 +161,7 @@ const ContactSection = () => {
               Status: Currently learning Cryptography and Animation Principles
             </span>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

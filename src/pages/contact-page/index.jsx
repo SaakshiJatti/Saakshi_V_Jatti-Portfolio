@@ -84,9 +84,7 @@ const ContactPage = () => {
                 </span>
               </h1>
               <p className="text-xl text-text-secondary leading-relaxed">
-                Curious, creative, and still exploring — I’m a student who loves turning ideas into working projects and exploring the latest technologies. 
-                Whether it’s code, design, or data, I’m all about learning by doing.
-                <br />
+
                 <br />
                 Have feedback, collaboration ideas, or just want to connect? I’d love to hear from you!
               </p>

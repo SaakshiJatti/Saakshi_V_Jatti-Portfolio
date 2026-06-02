@@ -9,7 +9,7 @@ const Header = () => {
   const location = useLocation();
 
   const navigationItems = [
-    { label: 'Home', path: '/home-landing-page', icon: 'Home' },
+    // { label: 'Home', path: '/home-landing-page', icon: 'Home' },
     { label: 'Portfolio', path: '/portfolio-gallery', icon: 'Briefcase' },
     { label: 'About', path: '/about-page', icon: 'User' },
     { label: 'Contact', path: '/contact-page', icon: 'Mail' }

@@ -160,14 +160,14 @@ const Achievements = () => {
         <Icon name="Trophy" size={28} className="text-cyan-400" />
         Achievements & Milestones
       </h2>
-      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-5">
         {achievements?.map((achievement) => (
           <div
             key={achievement?.id}
             className={`glass-cyber rounded-xl overflow-hidden magnetic-hover micro-feedback group border-l-4 ${getTypeBorder(achievement?.type)}`}
           >
             {/* Image */}
-            <div className="relative h-48 overflow-hidden">
+            <div className="relative h-40 overflow-hidden">
               <Image
                 src={achievement?.image}
                 alt={achievement?.title}
@@ -193,7 +193,7 @@ const Achievements = () => {
             </div>
 
             {/* Content */}
-            <div className="p-6 space-y-3">
+            <div className="p-4 space-y-3">
               <h3 className="text-lg font-body font-semibold text-foreground line-clamp-2">
                 {achievement?.title}
               </h3>
@@ -210,7 +210,7 @@ const Achievements = () => {
         ))}
       </div>
       
-      {/* Motivation Section */}
+      {/* Motivation Section
       <div className="glass-cyber p-6 rounded-xl text-center border border-purple-400/30">
         <div className="flex items-center justify-center gap-3 mb-4">
           <Icon name="Rocket" size={24} className="text-purple-400" />
@@ -222,7 +222,7 @@ const Achievements = () => {
           These achievements represent the foundation of my journey in tech. While I may not have years of experience, 
           I have the enthusiasm, dedication, and curiosity that drives continuous growth. The best is yet to come!
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };
